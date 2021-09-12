@@ -9,3 +9,6 @@ Nesse repositório estudo como o framework django trabalha:
   - Configurando os templates no app receitas (arquivos htmls)
   - Configuração de página estilizada (html, css e javascript)
   - Carregando os arquivos estáticos no setup da aplicação
+  - Setando código python na importação de links, imagens, files, etc...
+  - Utilizando um base.html com configurações globais de html,css,js
+  - Trabalhando com partials (reaproveitando componentes de tela)
