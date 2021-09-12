@@ -8,9 +8,9 @@ services:
     ports:
       - "5432:5432"
     environment:
+      POSTGRES_DB: test
       POSTGRES_USER: test_local
       POSTGRES_PASSWORD: test
-      POSTGRES_DB: test
 
 volumes:
   postgres_local-data:

@@ -12,3 +12,6 @@ Nesse repositório estudo como o framework django trabalha:
   - Setando código python na importação de links, imagens, files, etc...
   - Utilizando um base.html com configurações globais de html,css,js
   - Trabalhando com partials (reaproveitando componentes de tela)
+  - Passando e Renderizando dados nos templates
+  - Configurando um banco de dados Postgres na aplicação django
+  - Trabalhando com as Models e migrações de dados
