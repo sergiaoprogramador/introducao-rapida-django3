@@ -15,3 +15,6 @@ Nesse repositório estudo como o framework django trabalha:
   - Passando e Renderizando dados nos templates
   - Configurando um banco de dados Postgres na aplicação django
   - Trabalhando com as Models e migrações de dados
+  - Enviando e exibindo dados em uma página
+  - Trazendo dados do banco de dados na views
+  - Trabalhando com os recursos passados na urls, exibindo dados por recurso
