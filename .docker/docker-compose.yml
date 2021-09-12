@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  postgres_local:
+    image: postgres:13
+    volumes:
+      - postgres_local-data:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: test_local
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
+
+volumes:
+  postgres_local-data:
